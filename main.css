@@ -26,7 +26,7 @@ header h1 {
 
 section, header {
     min-height: 150px;
-    padding: 4% 0;
+    padding: 80px;
     background-color: white;
 
 }
@@ -87,7 +87,8 @@ img {
 /*** footer section ***/
 
 footer {
-    height: 30px;
+    height: 12px;
+    color: grey;
 }
 
 /*** responsive layouts ***/ 
