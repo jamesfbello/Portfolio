@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: white;
+    font-family: 'Noto Sans HK', sans-serif;
+    color: black;
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 30px;
+}
+/*** header section ***/
+
+header {
+    font-family: 'Economica', sans-serif;
+    font-size: 24px;
+}
+
+header h1 {
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 32px;
+}
+
+
+/*** section styling ***/ 
+
+section, header {
+    min-height: 150px;
+    padding: 4% 0;
+    background-color: white;
+
+}
+
+h2 {
+    font-family: 'Economica', sans-serif;
+    font-size: 24px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+/*** about section ***/
+
+.about img {
+    border-radius: 25px;
+    margin: 20px 0;
+    padding: 0;
+    
+}
+
+/*** projects section ***/
+
+.projects h3 {
+    font-size: 18px;
+}
+.projects a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    margin: 10px 0;
+}
+
+.projects img {
+    width: 70%;
+}
+
+/*** contact section ***/
+
+ul {
+      list-style: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0;
+}
+
+img {
+    width: 50%;
+}
+
+/*** footer section ***/
+
+footer {
+    height: 30px;
+}
+
+/*** responsive layouts ***/ 
+
+@media screen and (min-width: 768px){
+    body {
+        margin: 0 40px;
+
+    }
+
+    .about img {
+        width: 25%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    section p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .projects h3 {
+        font-size:  20px;
+    }
+
+    .projects a {
+        font-size: 18px;
+    }
+
+    .projects img {
+        margin: 20px;
+    }
+
+    .contact ul li {
+        margin: 0 20px;
+    }
+}
+    
+
+@media screen and (min-width: 1281px) {
+    header h1 {
+        font-size: 48px;
+    }
+
+    header p {
+        font-size: 32px;
+    }
+
+    body {
+        margin: 0 100px;
+    }
+
+    p {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    .contact ul li {
+        margin: 0 50px;
+    }
+
+    .contact img {
+        width: 60%;
+    }
+}
