@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #f1f2eb;
+    background: #23395b;
     font-family: 'HKGroteskRegular'; 
     font-weight: normal; 
     font-style: normal; 
@@ -57,6 +57,7 @@ h2 {
 section p {
     font-size: 16px;
     line-height: 22px;
+    text-align: left;
 }
 
 /*** about section ***/
@@ -79,6 +80,10 @@ background: #93b7be;
 
 .projects img {
     width: 70%;
+}
+
+.projects p{
+    display: inline-block;
 }
 
 /*** contact section ***/
