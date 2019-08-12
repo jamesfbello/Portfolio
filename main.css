@@ -2,22 +2,28 @@
     box-sizing: border-box;
 }
 body {
-    background: white;
-    font-family: 'Noto Sans HK', sans-serif;
+    background: #f1f2eb;
+    font-family: 'HKGroteskRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
     color: black;
     text-align: center;
-    font-family: 'PT Sans', sans-serif;
     margin: 0 30px;
 }
 /*** header section ***/
 
 header {
-    font-family: 'Economica', sans-serif;
+    font-family:'GlacialIndifferenceRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
     font-size: 24px;
+    color: black;
 }
 
-header h1 {
-    font-family: 'Advent Pro', sans-serif;
+h1 {
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
     font-size: 32px;
 }
 
@@ -27,12 +33,24 @@ header h1 {
 section, header {
     min-height: 150px;
     padding: 80px;
-    background-color: white;
+    background-color: #f1f2eb;
 
 }
 
+section{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-color: #f06449;
+}
+
 h2 {
-    font-family: 'Economica', sans-serif;
+    font-family: 'GlacialIndifferenceRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
     font-size: 24px;
 }
 
@@ -43,11 +61,8 @@ section p {
 
 /*** about section ***/
 
-.about img {
-    border-radius: 25px;
-    margin: 20px 0;
-    padding: 0;
-    
+.about{
+background: #93b7be;
 }
 
 /*** projects section ***/
@@ -164,6 +179,6 @@ footer {
     }
 
     .contact img {
-        width: 60%;
+        width: 40%;
     }
 }
