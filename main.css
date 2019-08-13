@@ -136,18 +136,22 @@ section p {
 /*** about section ***/
 
 .about{
-background: #93b7be;
-border-style:double;
-border-left: 10px;
-border-right: 10px;
-border-color: #f06449;
-/* background-image: 
-    linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-    ),
-    url(images/background.JPG);
-    } */
+    background: #93b7be;
+    border-style:double;
+    border-left: 10px;
+    border-right: 10px;
+    border-color: #f06449;
+    color: #f1f2eb;
+    background-position: bottom right !important;
+        background: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+        ),
+        url('images/background.JPG');
+        background-size: cover;
+	    background-repeat: no-repeat;
+        }
+        
 }
 
 /*** projects section ***/
