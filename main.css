@@ -75,6 +75,7 @@ body {
     transition: max-height 0.5s ease-out;
     position: absolute;
     min-width: 100%;
+    margin-top: 7px;
   }
   
   ul.submenu li a{
@@ -159,7 +160,21 @@ border-color: #f06449;
     display: block;
     color: black;
     margin: 10px 0;
+    /* background:
+        linear-gradient(
+            to bottom, var(--mainColor) 0%,
+            var(--mainColor) 100%
+        );
+        background-position: 0 100%;
+        background-repeat: repeat-x;
+        background-size: 4px 4px;
+    color: #000;
+    text-decoration: none;
+    transition: background-size .2s; */
 }
+/* .projects a:hover {
+    background-size: 4px 50px;
+    } */
 
 .projects img {
     width: 70%;
