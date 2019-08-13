@@ -48,7 +48,7 @@ h2 {
     font-family: 'GlacialIndifferenceRegular'; 
     font-weight: normal; 
     font-style: normal; 
-    font-size: 28px;
+    font-size: 34px;
 }
 
 section p {
@@ -65,6 +65,13 @@ border-style:double;
 border-left: 10px;
 border-right: 10px;
 border-color: #f06449;
+/* background-image: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+    ),
+    url(images/background.JPG);
+    } */
 }
 
 /*** projects section ***/
@@ -122,6 +129,50 @@ footer {
 
 /*** responsive layouts ***/ 
 
+@media screen and (max-width: 768px){
+    body {
+        margin: 0 40px;
+
+    }
+
+    .heroimage{
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    section p {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .projects h3 {
+        font-size:  26px;
+    }
+
+    .projects a {
+        font-size: 18px;
+    }
+
+    .projects img {
+        margin: 40px;
+    }
+
+    .contact ul li {
+        margin: 0 20px;
+    }
+}
+    
 @media screen and (min-width: 768px){
     body {
         margin: 0 40px;
@@ -141,7 +192,7 @@ footer {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     section p {
@@ -150,7 +201,7 @@ footer {
     }
 
     .projects h3 {
-        font-size:  20px;
+        font-size:  26px;
     }
 
     .projects a {
@@ -165,8 +216,6 @@ footer {
         margin: 0 20px;
     }
 }
-    
-
 @media screen and (min-width: 1281px) {
     header h1 {
         font-size: 48px;
@@ -175,7 +224,6 @@ footer {
     .heroimage{
         width: 100%;
     }
-
 
     header p {
         font-size: 32px;
@@ -190,7 +238,7 @@ footer {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 34px;
     }
 
     .contact ul li {
