@@ -20,6 +20,81 @@ header {
     color: black;
 }
 
+body {
+    text-align: center;
+    color: black;
+  }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    width: auto;
+    font-family: 'GlacialIndifferenceRegular';
+    font-size: 18px;
+    background-color:#23395b;
+    margin-bottom: 15px;
+    color: black;
+  }
+
+  ul#menu > li{
+    float:right;
+    list-style-type:none;
+    position:relative;
+    font-family: 'HKGroteskRegular';
+    margin-top: 20px;
+  }
+
+  label {
+    position: relative;
+    display: block;
+    padding: 0 35px;
+    margin-bottom: 5px;
+    margin-top: -7px;
+    line-height: 30px;
+    cursor: pointer;
+    background-color: #23395b;
+    color: #f1f2eb;
+  }  
+
+  input {
+    display: none;
+  }
+
+  input:checked ~ ul.submenu {
+    max-height: 400px;
+  }
+
+  ul.submenu{
+    max-height: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #f06449;
+    transition: max-height 0.5s ease-out;
+    position: absolute;
+    min-width: 100%;
+  }
+  
+  ul.submenu li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  ul.submenu li a:hover{
+    background:#93b7be;
+  }
+
+  .name {
+    float: left;
+    margin: 15px 0px 5px 10px;
+    padding: 2px;
+    color: #f1f2eb;
+  }
+
+
 h1 {
     font-family: 'GlacialIndifferenceRegular'; 
     font-weight: normal; 
@@ -118,6 +193,8 @@ img {
     border-left: 10px;
     border-right: 10px;
     border-color: #f06449;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 
 /*** footer section ***/
