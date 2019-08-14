@@ -348,6 +348,21 @@ footer {
         text-align: center;
     }
 
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .about{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .projects{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
     body {
         margin: 0 100px;
     }
