@@ -162,7 +162,7 @@ section p {
 .projects a {
     text-decoration: none;
     display: block;
-    color: black;
+    color: #f06449;
     margin: 10px 0;
     /* background:
         linear-gradient(
@@ -180,8 +180,18 @@ section p {
     background-size: 4px 50px;
     } */
 
+.projects a:visited{
+    color: grey;
+    text-decoration: none;
+}
+
+.projects a:hover{
+    color: #93b7be;
+    text-decoration: none;
+}
+
 .projects img {
-    width: 70%;
+    width: 100%;
 }
 
 .projects p{
@@ -222,6 +232,7 @@ img {
 footer {
     height: 12px;
     color: grey;
+    padding: 10px;
 }
 
 /*** responsive layouts ***/ 
@@ -299,8 +310,7 @@ footer {
     }
 
     .about{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 15px;
     }
 
     section p {
@@ -309,8 +319,7 @@ footer {
     }
 
     .projects{
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding: 20px 15px;
     }
 
     .projects h3 {
@@ -322,8 +331,9 @@ footer {
     }
 
     .projects img {
-        margin: 40px;
-        align-self: auto;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
     }
 
     .contact ul li {
