@@ -164,6 +164,7 @@ section p {
     display: block;
     color: #f06449;
     margin: 10px 0;
+    padding: 5px;
     /* background:
         linear-gradient(
             to bottom, var(--mainColor) 0%,
@@ -181,7 +182,7 @@ section p {
     } */
 
 .projects a:visited{
-    color: grey;
+    color: #f06449;
     text-decoration: none;
 }
 
