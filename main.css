@@ -1,7 +1,8 @@
-* {
+*{
     box-sizing: border-box;
 }
-body {
+
+body{
     background: #23395b;
     font-family: 'HKGroteskRegular'; 
     font-weight: normal; 
@@ -12,7 +13,7 @@ body {
 }
 /*** header section ***/
 
-header {
+header{
     font-family:'GlacialIndifferenceRegular'; 
     font-weight: normal; 
     font-style: normal; 
@@ -20,11 +21,16 @@ header {
     color: black;
 }
 
-body {
+body{
     text-align: center;
     color: black;
-  }
-  .nav-bar {
+}
+
+.name{
+    cursor: pointer;
+}
+  
+.nav-bar{
     position: fixed;
     top: 0;
     left: 0;
@@ -36,17 +42,17 @@ body {
     background-color:#23395b;
     margin-bottom: 15px;
     color: black;
-  }
+}
 
-  ul#menu > li{
+ul#menu > li{
     float:right;
     list-style-type:none;
     position:relative;
     font-family: 'HKGroteskRegular';
     margin-top: 20px;
-  }
+}
 
-  label {
+label{
     position: relative;
     display: block;
     padding: 0 35px;
@@ -56,17 +62,17 @@ body {
     cursor: pointer;
     background-color: #23395b;
     color: #f1f2eb;
-  }  
+}  
 
-  input {
+input{
     display: none;
-  }
+}
 
-  input:checked ~ ul.submenu {
+input:checked ~ ul.submenu{
     max-height: 400px;
-  }
+}
 
-  ul.submenu{
+ul.submenu{
     max-height: 0;
     padding: 0;
     overflow: hidden;
@@ -76,27 +82,27 @@ body {
     position: absolute;
     min-width: 100%;
     margin-top: 7px;
-  }
-  
-  ul.submenu li a{
+}
+
+ul.submenu li a{
     display: block;
     padding: 10px;
     text-decoration: none;
-  }
-  
-  ul.submenu li a:hover{
-    background:#93b7be;
-  }
+}
 
-  .name {
+ul.submenu li a:hover{
+    background:#93b7be;
+}
+
+.name{
     float: left;
     margin: 15px 0px 5px 10px;
     padding: 2px;
     color: #f1f2eb;
-  }
+}
 
 
-h1 {
+h1{
     font-family: 'GlacialIndifferenceRegular'; 
     font-weight: normal; 
     font-style: normal; 
@@ -106,7 +112,7 @@ h1 {
 
 /*** section styling ***/ 
 
-section, header {
+section, header{
     min-height: 150px;
     padding: 80px;
     background-color: #f1f2eb;
@@ -120,7 +126,7 @@ section{
     margin-right: 0px;
 }
 
-h2 {
+h2{
     font-family: 'GlacialIndifferenceRegular'; 
     font-weight: normal; 
     font-style: normal; 
@@ -156,10 +162,10 @@ section p {
 
 /*** projects section ***/
 
-.projects h3 {
+.projects h3{
     font-size: 18px;
 }
-.projects a {
+.projects a{
     text-decoration: none;
     display: block;
     color: #f06449;
@@ -191,7 +197,7 @@ section p {
     text-decoration: none;
 }
 
-.projects img {
+.projects img{
     width: 100%;
 }
 
@@ -201,19 +207,19 @@ section p {
 
 /*** contact section ***/
 
-ul {
-      list-style: none;
-      text-align: center;
-      margin: 0;
-      padding: 0;
+ul{
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-ul li {
+ul li{
     display: inline-block;
     margin: 0;
 }
 
-img {
+img{
     width: 50%;
 }
 
@@ -230,7 +236,7 @@ img {
 
 /*** footer section ***/
 
-footer {
+footer{
     height: 12px;
     color: grey;
     padding: 10px;
@@ -283,7 +289,7 @@ footer {
 } */
     
 @media screen and (min-width: 320px){
-    body {
+    body{
         margin: 0 40px;
 
     }
@@ -293,20 +299,20 @@ footer {
         padding-top: 30px;
     }
 
-    header h1 {
+    header h1{
         font-size: 40px;
     }
 
-    header {
+    header{
         padding: 15px;
     }
 
-    header p {
+    header p{
         font-size: 18px;
         text-align: left;
     }
 
-    h2 {
+    h2{
         font-size: 34px;
     }
 
@@ -314,7 +320,7 @@ footer {
         padding: 20px 15px;
     }
 
-    section p {
+    section p{
         font-size: 18px;
         line-height: 26px;
     }
@@ -323,28 +329,28 @@ footer {
         padding: 20px 15px;
     }
 
-    .projects h3 {
+    .projects h3{
         font-size:  26px;
     }
 
-    .projects a {
+    .projects a{
         font-size: 18px;
     }
 
-    .projects img {
+    .projects img{
         width: 100%;
         margin: 0px;
         padding: 0px;
     }
 
-    .contact ul li {
+    .contact ul li{
         margin: 0 20px;
     }
     
 
 
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
     header h1 {
         font-size: 48px;
     }
@@ -354,12 +360,12 @@ footer {
         padding-top: 60px;
     }
 
-    header p {
+    header p{
         font-size: 32px;
         text-align: center;
     }
 
-    header {
+    header{
         padding-top: 20px;
         padding-bottom: 20px;
     }
@@ -374,19 +380,19 @@ footer {
         padding-bottom: 50px;
     }
 
-    body {
+    body{
         margin: 0 100px;
     }
 
-    p {
+    p{
         font-size: 24px;
     }
 
-    h2 {
+    h2{
         font-size: 34px;
     }
 
-    .contact ul {
+    .contact ul{
         margin: 0 50px;
         display: flex;
         flex-direction: row;
@@ -395,7 +401,7 @@ footer {
         flex-shrink: 1;
     }
 
-    .contact img {
+    .contact img{
         width: 40%;
     }
 }
